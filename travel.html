@@ -73,6 +73,178 @@
                 </div>
             </div>
         </section>
+
+        <section class="container route-tips-section">
+            <div class="section-title">
+                <h2>路线避坑提醒</h2>
+                <p class="subtitle">实用出行指南，少走弯路不踩坑</p>
+            </div>
+
+            <div class="route-filter">
+                <button class="filter-btn active" data-route="all">全部路线</button>
+                <button class="filter-btn" data-route="ancient-city">古城路线</button>
+                <button class="filter-btn" data-route="dock">码头路线</button>
+                <button class="filter-btn" data-route="mountain">山路路线</button>
+                <button class="filter-btn" data-route="night-market">夜市路线</button>
+            </div>
+
+            <div id="alert-banner" class="alert-banner hidden">
+                <span class="alert-icon">⚠️</span>
+                <span class="alert-text"></span>
+            </div>
+
+            <div class="route-cards">
+                <div class="route-card" data-route="ancient-city">
+                    <div class="route-header ancient-city">
+                        <h3>🏯 古城路线</h3>
+                        <span class="route-tag">城墙·钟楼·碑林</span>
+                    </div>
+                    <div class="route-body">
+                        <div class="info-row">
+                            <div class="info-item">
+                                <span class="info-label">🕐 适合时间</span>
+                                <span class="info-value">春秋季（3-5月、9-11月）最佳，上午9:00-11:00或下午16:00-18:00光线柔和适合拍照</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">🚇 交通方式</span>
+                                <span class="info-value">地铁2号线到钟楼站；城墙可从永宁门（南门）登城；建议地铁+步行，不推荐自驾（城内停车极难）</span>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-item accessibility">
+                                <span class="info-label">👨‍👩‍👧‍👦 老少友好度</span>
+                                <div class="access-bar">
+                                    <div class="access-level" style="width: 70%"></div>
+                                </div>
+                                <span class="info-desc">古城内道路平缓，但城墙上砖路不平，推婴儿车需注意；碑林多台阶，老人量力而行</span>
+                            </div>
+                        </div>
+                        <div class="pitfall-box">
+                            <h4>⚠️ 容易踩坑</h4>
+                            <ul>
+                                <li>城墙上租自行车别在正午租，暴晒加无遮挡很容易中暑；骑行一圈13.7公里，中途还车点很少</li>
+                                <li>钟楼地下通道出口复杂，认准"东大街/南大街"指示牌，别跟着拉客的走</li>
+                                <li>城墙门票提前在官方公众号买，门口黄牛票多是已预约过的废票</li>
+                                <li>碑林门口的"免费讲解"实际会带你去买高价拓片，一张动辄几百</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-route="dock">
+                    <div class="route-header dock">
+                        <h3>⛵ 码头路线</h3>
+                        <span class="route-tag">曲江池·汉城湖·灞河</span>
+                    </div>
+                    <div class="route-body">
+                        <div class="info-row">
+                            <div class="info-item">
+                                <span class="info-label">🕐 适合时间</span>
+                                <span class="info-value">夏季傍晚17:00-20:00（避开正午暴晒）；冬季下午14:00-16:00；雨天后不建议乘船，水浑且湖面风大</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">🚇 交通方式</span>
+                                <span class="info-value">曲江池：地铁4号线大唐芙蓉园站；汉城湖：地铁1号线开远门站转公交；码头停车场车位有限，节假日建议公共交通</span>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-item accessibility">
+                                <span class="info-label">👨‍👩‍👧‍👦 老少友好度</span>
+                                <div class="access-bar">
+                                    <div class="access-level" style="width: 55%"></div>
+                                </div>
+                                <span class="info-desc">码头上下船有台阶，小孩需大人牵手；湖面风大注意给老人加外套；部分船型无遮阳棚</span>
+                            </div>
+                        </div>
+                        <div class="pitfall-box">
+                            <h4>⚠️ 容易踩坑</h4>
+                            <ul>
+                                <li>游船按小时计费，超时每分钟加钱，上船前一定确认还船截止时间，别玩太嗨超时</li>
+                                <li>码头旁"古装拍照"一套衣服加妆造报价200，但底片只给5张，加一张50，提前谈清楚</li>
+                                <li>曲江池畔的"免费鱼食"其实是诱导消费，拿了就有人追着要钱，10元一小包</li>
+                                <li>电动脚踏船比普通脚踏船贵一倍，但速度差不多，人少建议选普通的</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-route="mountain">
+                    <div class="route-header mountain">
+                        <h3>⛰️ 山路路线</h3>
+                        <span class="route-tag">华山·骊山·翠华山</span>
+                    </div>
+                    <div class="route-body">
+                        <div class="info-row">
+                            <div class="info-item">
+                                <span class="info-label">🕐 适合时间</span>
+                                <span class="info-value">4月中旬-10月上旬；看日出选前一日下午上山住山顶；一日游建议早7:00前出发，避开索道排队高峰</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">🚇 交通方式</span>
+                                <span class="info-value">华山：西安北坐高铁到华山北（30分钟），出站有免费接驳车；骊山：地铁9号线华清池站；不建议自驾上山，山路弯多险峻</span>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-item accessibility">
+                                <span class="info-label">👨‍👩‍👧‍👦 老少友好度</span>
+                                <div class="access-bar">
+                                    <div class="access-level" style="width: 30%"></div>
+                                </div>
+                                <span class="info-desc">不建议带6岁以下小孩和70岁以上老人走华山长空栈道等险段；骊山和翠华山有索道，相对轻松但仍需步行不少</span>
+                            </div>
+                        </div>
+                        <div class="pitfall-box">
+                            <h4>⚠️ 容易踩坑</h4>
+                            <ul>
+                                <li>华山索道排队旺季能排3小时，提前在官方小程序预约索道时段，别现场买票</li>
+                                <li>山下"登山必备"摊位卖的防滑手套10元一双，同款网上2元；登山杖没必要买，很多游客用完扔在山上可捡</li>
+                                <li>山顶矿泉水15元一瓶，泡面30元一桶，建议自带两瓶水上山，再带点能量棒</li>
+                                <li>华山"鹞子翻身""长空栈道"需另付费30元/人，排队时间可能比游玩时间还长，体力一般的慎选</li>
+                                <li>骊山盘山公路打车容易被绕路，打表或用网约车更靠谱</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-route="night-market">
+                    <div class="route-header night-market">
+                        <h3>🌃 夜市路线</h3>
+                        <span class="route-tag">回民街·永兴坊·东新街</span>
+                    </div>
+                    <div class="route-body">
+                        <div class="info-row">
+                            <div class="info-item">
+                                <span class="info-label">🕐 适合时间</span>
+                                <span class="info-value">19:00-22:00最热闹；回民街周五周六人最多，想拍照选人少的工作日；东新街夜宵持续到凌晨2点</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">🚇 交通方式</span>
+                                <span class="info-value">回民街：地铁2号线钟楼站步行5分钟；永兴坊：地铁1号线朝阳门站；夜市周边禁停，别开车，酒驾查得严</span>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="info-item accessibility">
+                                <span class="info-label">👨‍👩‍👧‍👦 老少友好度</span>
+                                <div class="access-bar">
+                                    <div class="access-level" style="width: 60%"></div>
+                                </div>
+                                <span class="info-desc">人流密集，小孩容易走散，务必牵手；老人注意脚下油污和台阶；推婴儿车在回民街主街通行困难，建议走侧街</span>
+                            </div>
+                        </div>
+                        <div class="pitfall-box">
+                            <h4>⚠️ 容易踩坑</h4>
+                            <ul>
+                                <li>回民街主街小吃比旁边巷子贵30%-50%，正宗好吃的都在洒金桥、大皮院这些巷子里，别在门口第一家买</li>
+                                <li>"现切现卖"的水果拼盘，不透明盒子底层可能是烂水果垫着，要看清楚再买</li>
+                                <li>路边"新疆切糕"别问价就切，一小块可能要你五六十，切了就必须买</li>
+                                <li>永兴坊的摔碗酒5元一碗图个热闹，但酒是低度甜酒，别多喝，喝多了影响后面吃美食</li>
+                                <li>夜市人流量大，手机钱包揣好，背包背前面，掏手机拍照时注意身边可疑人员</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
